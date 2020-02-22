@@ -12,7 +12,7 @@ int main()
         printf("Errore nella lettura del File '%s'\n",nome_file);
         return (-1);
     }
-    //Lettura file decimale in Hex
+    //Lettura file decimale in Unsigned Int
     while((carattere_singolo=getc(file_pointer)) != EOF)
     {
         printf("|%u|", carattere_singolo);
